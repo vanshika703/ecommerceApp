@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import ProductListing from "../product-listing"
+import UserListing from "../UserListing";
 
-export default function SyntheticV0PageForDeployment() {
-  return <ProductListing />
+export default function Home() {
+  return <UserListing />;
 }
